@@ -1,18 +1,23 @@
+/* THIS RESET THE DEFAULT BROWSER MARGIN AND PADDING */
 body {
   margin: 0;
   padding: 0;
 }
+/* THIS  IS THE MAIN WEB APP TITLE 'READINESS SQUADRON' */
 .site-title {
   font-family: fantasy;
   font-weight: 900;
   letter-spacing: 1rem;
   color: #ffffff;
 }
+
+/* THIS CONTROLS THE JUMBOTRON */
 .jumbotron {
   background-image: url("imgs/Logistics.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  /* THIS MARGIN-TOP HELPS KEEP THE JUMBOTRON AWAY FROM THE NAVBAR, WHICH WAS A PROBLEM BEFORE */
   margin-top: 200px;
 }
 
@@ -23,7 +28,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
 }
-
+/* THIS CONTROL THE H1 INSIDE OF THE JUMBOTRON */
 .jumbotron h1 {
   font-size: 3rem;
   color: #ffffff;
@@ -33,21 +38,23 @@ body {
   padding: 0;
   margin: 0;
 }
-
+/* TOP ACCTION BUTTONS INSIDE OF NAVBAR */
 .btn-for-actions {
   background-color: #248aaf;
   border-radius: 10px;
 }
-
+/* THE CONTAINER THAT CONTAINS EVERYTHING */
 .main-container {
   background-color: #248aaf;
   height: 100vh;
 }
 
-.holder-1 {
+/* THIS CONTAINS LOGISTICS LOGO, WORD, TITLE, AND SEARCH FORM */
+.top-content-holder {
   width: 95%;
 }
 
+/* THIS IS THE BOX LOGO */
 .box-logo {
   font-size: 3rem;
 }
