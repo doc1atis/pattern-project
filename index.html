@@ -16,41 +16,119 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/bfa195b1fd.js"></script>
-    <title>Pattern</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>LOGISTICS</title>
   </head>
 
   <body>
-    <!-- this is my navbar start -->
-    <nav class="navbar bg-dark navbar-dark">
-      <div class="container">
-        <a href="" class="navbar-brand">
-          <i class="fas fa-campground mr-3"></i>
-          PATTERN
-        </a>
+    <!-- main container -->
+    <div class="container-fluid main-container">
+      <!-- ======================================NAVBAR START============================================================ -->
+
+      <nav
+        class="navbar navbar-dark bg-dark fixed-top flex-column justify-content-center align-items-center"
+      >
+        <div class="d-flex justify-content-between holder-1">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-box-open"></i>
+            LOGISTICS
+          </a>
+          <!-- ============================================SEARCH BAR START================================================= -->
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+          <!-- ============================================SEARCH BAR END================================================= -->
+        </div>
+        <!-- =====================================================ALL ACTIONS START================================================ -->
+        <div
+          class="btn-group mt-4 mb-3"
+          role="group"
+          aria-label="Basic example"
+        >
+          <button type="button" class="btn btn-for-actions btn-dark">
+            Issue Items
+          </button>
+          <button type="button" class="btn btn-for-actions btn-dark">
+            Return Items
+          </button>
+          <button type="button" class="btn btn-for-actions btn-dark">
+            Add Items To Stock
+          </button>
+          <button type="button" class="btn btn-for-actions btn-dark">
+            Validate Location
+          </button>
+        </div>
+        <!-- =====================================================ALL ACTIONS END================================================ -->
+      </nav>
+
+      <!-- ======================================NAVBAR END============================================================ -->
+
+      <div class="container-fluid">
+        <!-- row that contain the jumbotron stars here -->
+        <div class="row">
+          <!-- jumbotron start here -->
+          <div class="jumbotron text-center col-lg-12">
+            <h1 class="display-4">LOGISTICS READINESS SQUADRON</h1>
+            <p class="lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde eos
+              quae, nobis adipisci reiciendis iure optio, quia, culpa alias ad
+              corporis laudantium hic ratione voluptatum aspernatur ipsa
+              reprehenderit repudiandae velit dolorum aut accusamus saepe
+              officiis soluta. Explicabo, suscipit asperiores, error esse quas
+              eligendi rem soluta iusto, perspiciatis possimus aspernatur
+              praesentium?
+            </p>
+            <!-- buttons start here -->
+            <button type="button" class="btn btn-primary btn-lg mr-2">
+              My life
+            </button>
+            <button type="button" class="btn btn-secondary btn-lg">
+              My hobbies
+            </button>
+          </div>
+          <!-- buttons end here -->
+        </div>
+        <!-- jumbotron ends here -->
       </div>
-    </nav>
-    <!-- my navbar end here -->
 
-    <!-- jumbotron start here -->
-    <div class="jumbotron text-center">
-      <h1 class="display-4">PATTERN</h1>
-      <p class="lead">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde eos quae,
-        nobis adipisci reiciendis iure optio, quia, culpa alias ad corporis
-        laudantium hic ratione voluptatum aspernatur ipsa reprehenderit
-        repudiandae velit dolorum aut accusamus saepe officiis soluta.
-        Explicabo, suscipit asperiores, error esse quas eligendi rem soluta
-        iusto, perspiciatis possimus aspernatur praesentium?
-      </p>
+      <!-- ============================= card starts here========================== -->
 
-      <button type="button" class="btn btn-primary btn-lg mr-2">
-        Large button
-      </button>
-      <button type="button" class="btn btn-secondary btn-lg">
-        Large button
-      </button>
+      <div class="row">
+        <div class="col-sm-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- jumbotron end here -->
+    <!-- main container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

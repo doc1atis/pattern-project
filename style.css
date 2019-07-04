@@ -1,0 +1,25 @@
+.jumbotron {
+  background-image: url("imgs/Logistics.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 200px;
+}
+
+.btn-for-actions {
+  background-color: #248aaf;
+  border-radius: 10px;
+}
+
+.main-container {
+  background-color: #248aaf;
+  height: 100vh;
+}
+
+.holder-1 {
+  width: 95%;
+}
+
+.holder-2 {
+  /* background-color: aliceblue; */
+}
