@@ -1,9 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.site-title {
+  font-family: fantasy;
+  font-weight: 900;
+  letter-spacing: 1rem;
+  color: #ffffff;
+}
 .jumbotron {
   background-image: url("imgs/Logistics.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   margin-top: 200px;
+}
+
+.my-jumbo {
+  padding: 0;
+  height: 380px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: fantasy;
+  font-weight: 900;
+  letter-spacing: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 .btn-for-actions {
@@ -20,6 +48,6 @@
   width: 95%;
 }
 
-.holder-2 {
-  /* background-color: aliceblue; */
+.box-logo {
+  font-size: 3rem;
 }
